@@ -40,8 +40,7 @@ communication. The goal is to replace this with an in-house platform that:
 
 ## 4. Assumptions
 
-*(These are the assumptions I'm making because the brief doesn't specify them — see the
-Stakeholder Questions doc for what I'd actually confirm before building.)*
+
 
 - The CRM exposes a REST or GraphQL API (not a legacy/on-prem-only system) that can be integrated with.
 - Telephony connectivity will go through a carrier via **SIP trunking**, using a telephony platform
