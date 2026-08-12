@@ -1,0 +1,20 @@
+<div class="active-call">
+  <div class="header">
+    <span class="status-chip">{{ activeCall().status }}</span>
+    <h3>{{ activeCall().crmContactName ?? activeCall().fromNumber }}</h3>
+    <span class="direction">{{ activeCall().direction }}</span>
+  </div>
+
+  <label for="disposition">Disposition</label>
+  <select id="disposition" name="disposition" [ngModel]="selectedDisposition()" (ngModelChange)="selectedDisposition.set($event)">
+    @for (option of dispositions; track option) {
+      <option [value]="option">{{ option }}</option>
+    }
+  </select>
+
+  <label for="notes">Call notes</label>
+  <textarea id="notes" name="notes" rows="3" [ngModel]="notes()" (ngModelChange)="notes.set($event)"
+            placeholder="What happened on this call? (written back to the CRM record)"></textarea>
+
+  <button class="end-call" (click)="submitEndCall()">End call &amp; save to CRM</button>
+</div>

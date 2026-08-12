@@ -1,0 +1,30 @@
+<div class="history">
+  <h3>Your recent calls</h3>
+
+  @if (calls().length === 0) {
+    <p class="empty">No calls yet — simulate an inbound call to get started.</p>
+  } @else {
+    <table>
+      <thead>
+        <tr>
+          <th>Contact</th>
+          <th>Direction</th>
+          <th>Status</th>
+          <th>Disposition</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (call of calls(); track call.id) {
+          <tr>
+            <td>{{ call.crmContactName ?? call.fromNumber }}</td>
+            <td>{{ call.direction }}</td>
+            <td><span class="status" [class]="call.status.toLowerCase()">{{ call.status }}</span></td>
+            <td>{{ call.dispositionCode ?? '—' }}</td>
+            <td>{{ call.queuedAtUtc | date: 'short' }}</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  }
+</div>

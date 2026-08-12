@@ -1,0 +1,23 @@
+<div class="incoming-call">
+  <div class="pulse-dot"></div>
+  <div class="content">
+    <p class="label">Incoming call — {{ notification().queueName }} queue</p>
+    <h2>{{ notification().crmContactName ?? 'Unknown caller' }}</h2>
+    <p class="phone">{{ notification().fromNumber }}</p>
+
+    @if (notification().crmContactId) {
+      <div class="crm-card">
+        <div class="crm-row"><span>Company</span><strong>{{ notification().crmCompany }}</strong></div>
+        <div class="crm-row"><span>Tier</span><strong>{{ notification().crmTier }}</strong></div>
+        <div class="crm-row full">
+          <span>Last interaction</span>
+          <p>{{ notification().crmLastInteractionSummary }}</p>
+        </div>
+      </div>
+    } @else {
+      <p class="unknown">No CRM match found for this number.</p>
+    }
+
+    <button (click)="onAccept()">Accept call</button>
+  </div>
+</div>

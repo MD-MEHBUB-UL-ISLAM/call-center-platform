@@ -1,0 +1,66 @@
+<div class="dashboard">
+  <header>
+    <div>
+      <h1>Agent Portal</h1>
+      <p class="agent-name">{{ agent()?.name }} · {{ agent()?.queueName ?? 'No queue' }}</p>
+    </div>
+
+    <div class="status-control">
+      <label for="status">Status</label>
+      <select id="status" name="status" [ngModel]="agent()?.status" (ngModelChange)="changeStatus($event)">
+        @for (option of statusOptions; track option) {
+          <option [value]="option">{{ option }}</option>
+        }
+      </select>
+    </div>
+
+    <button class="logout" (click)="logout()">Log out</button>
+  </header>
+
+  <main>
+    <section class="column">
+      @if (incomingCall(); as call) {
+        <app-incoming-call-panel [notification]="call" (accept)="acceptCall($event)" />
+      }
+
+      @if (activeCall(); as call) {
+        <app-call-controls [activeCall]="call" (endCall)="endCall($event)" />
+      }
+
+      <app-call-history [calls]="callHistory()" />
+    </section>
+
+    <aside class="column simulator">
+      <h3>Simulate inbound call</h3>
+      <p class="hint">
+        Stands in for the telephony provider's webhook (see System Design §3.1) — this is
+        the only part of the UI that wouldn't exist in production; a real call would arrive
+        automatically.
+      </p>
+
+      <label for="from">From number</label>
+      <input id="from" name="from" [ngModel]="simFromNumber()" (ngModelChange)="simFromNumber.set($event)" />
+
+      <label for="to">To number</label>
+      <input id="to" name="to" [ngModel]="simToNumber()" (ngModelChange)="simToNumber.set($event)" />
+
+      <label for="queue">Queue</label>
+      <select id="queue" name="queue" [ngModel]="simQueueName()" (ngModelChange)="simQueueName.set($event)">
+        @for (q of queues(); track q.id) {
+          <option [value]="q.name">{{ q.name }}</option>
+        }
+      </select>
+
+      @if (simulateError()) {
+        <p class="error">{{ simulateError() }}</p>
+      }
+
+      <button (click)="simulateInboundCall()">Simulate inbound call</button>
+
+      <p class="hint small">
+        Tip: try <code>+8801700000001</code> for a known CRM contact, or any other number for
+        an "unknown caller" screen-pop.
+      </p>
+    </aside>
+  </main>
+</div>

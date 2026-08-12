@@ -1,0 +1,25 @@
+<div class="login-shell">
+  <form class="login-card" (ngSubmit)="submit()">
+    <h1>Call Center Platform</h1>
+    <p class="subtitle">Agent Portal — Prototype</p>
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" [ngModel]="email()" (ngModelChange)="email.set($event)" required />
+
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" [ngModel]="password()" (ngModelChange)="password.set($event)" required />
+
+    @if (errorMessage()) {
+      <p class="error">{{ errorMessage() }}</p>
+    }
+
+    <button type="submit" [disabled]="isSubmitting()">
+      {{ isSubmitting() ? 'Signing in…' : 'Sign in' }}
+    </button>
+
+    <p class="hint">
+      Demo accounts: rafi.agent&#64;example.com / nusrat.agent&#64;example.com / imran.supervisor&#64;example.com
+      — password: Password123!
+    </p>
+  </form>
+</div>

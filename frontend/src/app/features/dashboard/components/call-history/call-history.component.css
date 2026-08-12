@@ -1,0 +1,23 @@
+.history {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+h3 { margin-top: 0; }
+.empty { color: var(--color-text-muted); font-size: 0.9rem; }
+
+table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+th { text-align: left; color: var(--color-text-muted); font-weight: 500; padding: 8px 6px; border-bottom: 1px solid var(--color-border); }
+td { padding: 8px 6px; border-bottom: 1px solid var(--color-border); }
+
+.status {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  background: var(--color-surface-alt);
+}
+.status.completed { color: var(--color-success); }
+.status.queued, .status.ringing { color: var(--color-warning); }
+.status.abandoned { color: var(--color-danger); }
