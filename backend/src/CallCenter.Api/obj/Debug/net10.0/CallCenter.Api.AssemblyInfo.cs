@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CallCenter.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0467b74b7961333dc7984b41e82910e088b80c4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae122f8171fdd1422bf5a4044d9a17c627695e5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CallCenter.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CallCenter.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
