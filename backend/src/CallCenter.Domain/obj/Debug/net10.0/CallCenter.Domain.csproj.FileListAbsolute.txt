@@ -1,0 +1,12 @@
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Domain\bin\Debug\net10.0\CallCenter.Domain.deps.json
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Domain\bin\Debug\net10.0\CallCenter.Domain.dll
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Domain\bin\Debug\net10.0\CallCenter.Domain.pdb
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Domain\obj\Debug\net10.0\CallCenter.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Domain\obj\Debug\net10.0\CallCenter.Domain.AssemblyInfoInputs.cache
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Domain\obj\Debug\net10.0\CallCenter.Domain.AssemblyInfo.cs
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Domain\obj\Debug\net10.0\CallCenter.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Domain\obj\Debug\net10.0\CallCenter.Domain.sourcelink.json
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Domain\obj\Debug\net10.0\CallCenter.Domain.dll
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Domain\obj\Debug\net10.0\refint\CallCenter.Domain.dll
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Domain\obj\Debug\net10.0\CallCenter.Domain.pdb
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Domain\obj\Debug\net10.0\ref\CallCenter.Domain.dll

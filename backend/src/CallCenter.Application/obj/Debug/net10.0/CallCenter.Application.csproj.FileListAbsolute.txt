@@ -1,0 +1,16 @@
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\bin\Debug\net10.0\CallCenter.Application.deps.json
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\bin\Debug\net10.0\CallCenter.Application.dll
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\bin\Debug\net10.0\CallCenter.Application.pdb
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\bin\Debug\net10.0\CallCenter.Domain.dll
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\bin\Debug\net10.0\CallCenter.Domain.pdb
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\obj\Debug\net10.0\CallCenter.Application.csproj.AssemblyReference.cache
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\obj\Debug\net10.0\CallCenter.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\obj\Debug\net10.0\CallCenter.Application.AssemblyInfoInputs.cache
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\obj\Debug\net10.0\CallCenter.Application.AssemblyInfo.cs
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\obj\Debug\net10.0\CallCenter.Application.csproj.CoreCompileInputs.cache
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\obj\Debug\net10.0\CallCenter.Application.sourcelink.json
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\obj\Debug\net10.0\CallCent.5E9B4410.Up2Date
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\obj\Debug\net10.0\CallCenter.Application.dll
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\obj\Debug\net10.0\refint\CallCenter.Application.dll
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\obj\Debug\net10.0\CallCenter.Application.pdb
+C:\Users\mehbub\Downloads\call-center-platform-monorepo\backend\src\CallCenter.Application\obj\Debug\net10.0\ref\CallCenter.Application.dll
